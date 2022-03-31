@@ -1,0 +1,27 @@
+.addTask {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100px;
+  margin: 0 auto;
+  border: none;
+}
+
+button:hover {
+  background-color: #ddd;
+}
